@@ -33,9 +33,8 @@ public class Ship {
         hits++;
         if (hits >= shipType.getSize()) {
             sunk = true;
-            return true;
         }
-        return false;
+        return sunk;
     }
 
     /**

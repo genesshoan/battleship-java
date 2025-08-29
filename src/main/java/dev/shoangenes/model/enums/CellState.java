@@ -2,7 +2,7 @@ package dev.shoangenes.model.enums;
 
 public enum CellState {
     EMPTY,
-    SHIP,
+    OCCUPIED_SHIP,
     HIT,
     MISS,
     SUNK
